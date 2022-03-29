@@ -1,0 +1,4 @@
+include:
+  project: edalex-ian/example-build-definition
+  ref: 0a6f9a4231710e837bdf7e2918db2886f17a368a
+  file: /build/private-gitlab-ci.yml
