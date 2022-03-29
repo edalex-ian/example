@@ -5,7 +5,7 @@ package example
 
 object App {
   def main(args: Array[String]): Unit = {
-    println(greeting("v1"))
+    println(greeting("v2-beta"))
   }
 
   def greeting(who: String): String = s"Hello, ${who}!"
