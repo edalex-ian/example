@@ -8,5 +8,5 @@ object App {
     println(greeting("v2-beta"))
   }
 
-  def greeting(who: String): String = s"Hello, ${who}!"
+  def greeting(version: String): String = s"Welcome to version: ${version}!"
 }
