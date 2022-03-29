@@ -5,8 +5,8 @@ package example
 
 object App {
   def main(args: Array[String]): Unit = {
-    println(greeting())
+    println(greeting("v1"))
   }
 
-  def greeting(): String = "Hello, world!"
+  def greeting(who: String): String = s"Hello, ${who}!"
 }
